@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Параллакс для задн фона
+    // Параллакс для заднего фона
     document.addEventListener("mousemove", function (event) {
         let x = (event.clientX / window.innerWidth) * 30 - 15; // Двигаем влево-вправо
         let y = (event.clientY / window.innerHeight) * 30 - 15; // Двигаем вверх-вниз
